@@ -9,5 +9,13 @@ module.exports = {
     './node_modules/react-bricks-ui/**/*.js',
   ],
   darkMode: 'class',
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'newark-red': '#8a2432'
+      }
+    }
+  },
 }
